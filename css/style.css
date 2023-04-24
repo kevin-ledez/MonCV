@@ -148,7 +148,7 @@ a.site-logo {
 }
 
 .intro-area {
-    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5)), url(img/bg.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5)), url(../img/bg.jpg);
     height: calc(100vh - 61px);
     display: flex;
     align-items: center;
