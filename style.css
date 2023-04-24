@@ -562,7 +562,7 @@ input:checked:before {
 
 .text-focus-in {
     -webkit-animation: text-focus-in 1.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.7s both;
-    animation: text-focus-in 1.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.7s both;
+    animation: text-focus-in 1.0s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.1s both;
 }
 
 @-webkit-keyframes text-focus-in {
