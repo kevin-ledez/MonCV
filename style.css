@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -543,7 +544,7 @@ input:checked:before {
 
 }
 
-@media screen and (min-width: 400px ?? max-width: 660px) {
+@media screen and (min-width: 400px) and (max-width: 660px) {
 
     .direction-l .desc,
     .direction-r .desc {
@@ -604,16 +605,16 @@ input:checked:before {
     flex-wrap: wrap;
 }
 
+.skills li {
+    margin: 5px;
+}
+
 .skill {
     display: inline-block;
     background-color: #ff8200;
     color: #fff;
     border-radius: 100px;
     padding: 4px 16px;
-
-    &:not(:last-child) {
-        margin-right: 8px;
-    }
 }
 
 ul.second {
