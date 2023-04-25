@@ -5,9 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/jquery-3.6.4.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="preload" fetchpriority="high" as="image" href="img/bg.webp" type="image/webp">
     <meta name="description"
@@ -21,32 +19,32 @@
         <div class="navbar-area">
             <div class="container">
                 <nav class="site-navbar">
-                    <a href="/" class="site-logo"><img src="img/Logo-N.webp" alt="Logo-N"></a>
+                    <a href="/" class="site-logo"><img src="img/Logo-N.webp" width="47px" height="45px" alt="Logo-N"></a>
                     <ul>
                         <li><a href="#experiences">Expériences</a></li>
                         <li><a href="#formations">Formation</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
-                    <button class="nav-toggler">
+                    <button class="nav-toggler" name="nav-toggler">
                         <span></span>
                     </button>
                 </nav>
             </div>
         </div>
-        <div class="button">
-            <div class="center">
-                <input type="checkbox">
-            </div>
+        <button id="toggle" name="toggle" onclick="mode()"><!-- 🔅 changed in css --></button>
         </div>
         <div class="intro-area">
             <div class="container">
-                <img src="img/Logo-Nalius.webp" width="" height="" alt="Logo">
+                <img class="logo" src="img/Logo-Nalius.webp" width="463px" height="140px" alt="Logo">
                 <h1 class="text-focus-in">Je suis Kévin LEDEZ</h1>
                 <p class="text-focus-in">En reconversion professionnelle et actuellement en formation en Développement
                     Web et Web Mobile chez Simplon.co</p>
-                <a href="https://github.com/kevin-ledez" target="_blank"><i class="fa-brands fa-github"></i></a><a
-                    href="https://www.linkedin.com/in/kevin-ledez/" target="_blank"><i
-                        class="fa-brands fa-linkedin fa-bounce"></i></a>
+                <a class="icons" href="https://github.com/kevin-ledez" target="_blank">
+                    <img src="img/github.svg" width="60px" height="60px" alt="Logo-Github">
+                </a>
+                <a class="icons" href="https://www.linkedin.com/in/kevin-ledez/" target="_blank">
+                    <img src="img/linkedin.svg" width="60px" height="60px" alt="Logo-LinkedIn">
+                </a>
             </div>
         </div>
     </header>
@@ -166,7 +164,7 @@
             </div>
     </section>
     <footer id="contact"></footer>
-    <script src="js/app.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
