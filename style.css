@@ -585,7 +585,7 @@ a.site-logo {
 .skill {
     display: inline-block;
     background-color: #ff8200;
-    color: #fff;
+    color: #000000;
     border-radius: 100px;
     padding: 4px 16px;
 }
