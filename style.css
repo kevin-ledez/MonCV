@@ -602,6 +602,21 @@ footer {
     background-color: #ff8200;
     background-image: -webkit-linear-gradient(150deg, #ff9421 35%, #ff8200 35%);
     min-height: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+}
+
+.left h1, .informations h1 {
+    padding-top: 0;
+}
+
+.left p, .informations p {
+    margin-top: 8px;
 }
 
 .mesprojets {
