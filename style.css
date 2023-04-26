@@ -609,6 +609,11 @@ footer {
     justify-content: space-around;
     align-items: center;
     color: #ffffff;
+    padding-top: 15px;
+}
+
+.left, .informations, .liens {
+    
 }
 
 .left h1, .informations h1 {
