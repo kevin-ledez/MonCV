@@ -635,6 +635,10 @@ footer {
     .card-grid{
       grid-template-columns: repeat(2, 1fr); 
     }
+
+    footer {
+        height: 100vh;
+    }
   }
   
   @media(min-width: 960px){
