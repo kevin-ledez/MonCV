@@ -600,10 +600,6 @@ footer {
     left: -50%;
 }
 
-.left, .informations, .liens {
-    
-}
-
 .left h1, .informations h1 {
     padding-top: 0;
 }
@@ -631,7 +627,7 @@ footer {
     width: 100%;
   }
   
-  @media(min-width: 540px){
+  @media(max-width: 540px){
     .card-grid{
       grid-template-columns: repeat(2, 1fr); 
     }
@@ -641,7 +637,7 @@ footer {
     }
   }
   
-  @media(min-width: 960px){
+  @media(max-width: 960px){
     .card-grid{
       grid-template-columns: repeat(4, 1fr); 
     }
