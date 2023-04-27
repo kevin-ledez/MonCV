@@ -635,6 +635,11 @@ footer {
     footer {
         height: 100vh;
     }
+
+    .left {
+        text-align: center;
+    }
+
   }
   
   @media(max-width: 960px){
