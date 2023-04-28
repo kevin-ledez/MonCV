@@ -1,14 +1,14 @@
-:root{
+:root {
     --background-dark: #2d3548;
-    --text-light: rgba(255,255,255,0.6);
-    --text-lighter: rgba(255,255,255,0.9);
+    --text-light: rgba(255, 255, 255, 0.6);
+    --text-lighter: rgba(255, 255, 255, 0.9);
     --spacing-s: 8px;
     --spacing-m: 16px;
     --spacing-l: 24px;
     --spacing-xl: 32px;
     --spacing-xxl: 64px;
     --width-container: 1200px;
-  }
+}
 
 * {
     margin: 0;
@@ -187,7 +187,8 @@ a.site-logo {
     margin-top: 15px;
 }
 
-#experiences h2, #formations h2 {
+#experiences h2,
+#formations h2 {
     font-size: 40px;
 }
 
@@ -600,26 +601,28 @@ footer {
     left: -50%;
 }
 
-.left h1, .informations h1 {
+.left h1,
+.informations h1 {
     padding-top: 0;
 }
 
-.left p, .informations p {
+.left p,
+.informations p {
     margin-top: 8px;
 }
 
-.card-grid{
+.card-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: var(--spacing-l);
     grid-row-gap: var(--spacing-l);
     max-width: var(--width-container);
     width: 100%;
-  }
-  
-  @media(max-width: 540px){
-    .card-grid{
-      grid-template-columns: repeat(2, 1fr); 
+}
+
+@media(max-width: 540px) {
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 
     footer {
@@ -630,27 +633,27 @@ footer {
         text-align: center;
     }
 
-  }
-  
-  @media(max-width: 960px){
-    .card-grid{
-      grid-template-columns: repeat(4, 1fr); 
+}
+
+@media(max-width: 960px) {
+    .card-grid {
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
-.FlexSwitch{
+.FlexSwitch {
     display: flex;
     justify-content: flex-end;
     margin-right: 3em;
 }
 
-.switch_box{
+.switch_box {
     color: #212121;
     font-size: 3em;
     right: 5%;
 }
 
-.switch{
+.switch {
     display: none;
 }
 
@@ -664,12 +667,12 @@ footer {
     position: absolute;
     margin: 0 auto;
     right: 1%;
-  }
-  
+}
+
 #toggle::before {
     content: "🔅";
 }
-  
+
 .dark {
     color: #ffffff;
     background: #333333;
@@ -678,6 +681,7 @@ footer {
 .dark ul li a {
     color: #fff;
 }
+
 .dark #toggle::before {
     content: "🔆";
 }
