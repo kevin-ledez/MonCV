@@ -694,14 +694,14 @@ footer {
     color:#000;
     display: inline-block;
     text-align: center;
-        line-height: 40px;
-        position: absolute;
-        bottom:0;left:0;
-        z-index: 10;
-        width:100%;
-        padding-bottom: 15px;
-        cursor: pointer;
-        font-size: 12px; 
+    line-height: 40px;
+    position: absolute;
+    bottom:0;left:0;
+    z-index: 10;
+    width:100%;
+    padding-bottom: 15px;
+    cursor: pointer;
+    font-size: 12px; 
     }
 .container-arrow:hover,
 .container-arrow:focus{text-decoration: none;}
