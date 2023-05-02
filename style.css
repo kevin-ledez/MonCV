@@ -552,7 +552,7 @@ ul.second li {
 
 footer {
     background-color: #ff8200;
-    background-image: -webkit-linear-gradient(150deg, #ff9421 35%, #ff8200 35%);
+    background-image: -webkit-linear-gradient(330deg, #ff9421 35%, #ff8200 35%);
     min-height: 200px;
     position: relative;
     display: flex;
