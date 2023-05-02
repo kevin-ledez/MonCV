@@ -634,7 +634,7 @@ footer {
 }
 
 #toggle::before {
-    content: "🔅";
+    content: "☀️";
 }
 
 .dark {
@@ -647,7 +647,7 @@ footer {
 }
 
 .dark #toggle::before {
-    content: "🔆";
+    content: "🌘";
 }
 
 /* Début Flèche bas */
