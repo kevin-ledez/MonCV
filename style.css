@@ -54,17 +54,6 @@ h1 {
     max-width: 90%;
 }
 
-.container i {
-    font-size: 45px;
-    margin-top: 25px;
-    margin-right: 15px;
-    color: #ffffff;
-}
-
-.container i:hover {
-    color: #ff8200;
-}
-
 .icons img {
     margin-top: 30px;
 }
@@ -168,13 +157,6 @@ a.site-logo {
     color: #fff;
 }
 
-.intro-area h2 {
-    font-size: 50px;
-    font-weight: 300;
-    line-height: 50px;
-    margin-bottom: 25px;
-}
-
 .intro-area p {
     font-size: 18px;
 }
@@ -254,11 +236,6 @@ a.site-logo {
     .site-navbar ul.open {
         max-height: 100vh;
         overflow: visible;
-    }
-
-    .intro-area h2 {
-        font-size: 36px;
-        margin-bottom: 15px;
     }
 
 }
@@ -454,7 +431,6 @@ a.site-logo {
     }
 
     .flag {
-        background: rgb(255, 255, 255);
         z-index: 15;
     }
 
@@ -576,7 +552,7 @@ ul.second li {
 
 footer {
     background-color: #ff8200;
-    background-image: -webkit-linear-gradient(150deg, #ff9421 35%, #ff8200 35%);
+    background-image: -webkit-linear-gradient(330deg, #ff9421 35%, #ff8200 35%);
     min-height: 200px;
     position: relative;
     display: flex;
@@ -611,19 +587,7 @@ footer {
     margin-top: 8px;
 }
 
-.card-grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-column-gap: var(--spacing-l);
-    grid-row-gap: var(--spacing-l);
-    max-width: var(--width-container);
-    width: 100%;
-}
-
 @media(max-width: 540px) {
-    .card-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
 
     footer {
         height: 100vh;
@@ -666,11 +630,11 @@ footer {
     background: transparent;
     position: absolute;
     margin: 0 auto;
-    right: 1%;
+    right: 3%;
 }
 
 #toggle::before {
-    content: "🔅";
+    content: "☀️";
 }
 
 .dark {
@@ -683,5 +647,29 @@ footer {
 }
 
 .dark #toggle::before {
-    content: "🔆";
+    content: "🌘";
 }
+
+/* Début Flèche bas */
+.container-arrow{
+    margin-top: -20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#000;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    bottom:0;left:0;
+    z-index: 10;
+    width:100%;
+    padding-bottom: 15px;
+    cursor: pointer;
+    font-size: 12px; 
+    }
+.container-arrow:hover,
+.container-arrow:focus{text-decoration: none;}
+.container-arrow span{  display: inline-block; font-size: 80px;	 animation: .7s down  infinite alternate; -webkit-animation: .7s down infinite alternate; } 
+    @keyframes down{ 0%{transform:translateY(0px)} 100%{transform:translateY(20px)} } 
+    @-webkit-keyframes down{ 0%{-webkit-transform:translateY(0px)} 100%{-webkit-transform:translateY(20px)} } 
+/* Fin Flèche bas */
